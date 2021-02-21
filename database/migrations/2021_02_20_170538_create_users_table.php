@@ -20,6 +20,8 @@ class CreateUsersTable extends Migration
                 $table->increments('id');
                 $table->string('user_name', 40);
                 $table->string('user_email', 40);
+                $table->string('bank_account_name', 60);
+                $table->string('bank_number', 100);
                 $table->unsignedDecimal('current_balance', 8, 3);
                 $table->unsignedDecimal('locked_balance', 8, 3);
                 $table->enum('currency', ['usd', 'pkr']);

@@ -20,13 +20,15 @@ class UserSeeder extends Seeder
         for ($x = 0; $x < 10; $x++) {
             DB::table('users')->insert(
                 [
-                    'user_name'       => Str::random(10),
-                    'user_email'      => Str::random(10).'@gmail.com',
-                    'current_balance' => 100,
-                    'locked_balance'  => 10,
-                    'currency'        => 'usd',
-                    'created_at'      => Carbon::now(),
-                    'updated_at'      => Carbon::now(),
+                    'user_name'         => Str::random(10),
+                    'user_email'        => Str::random(10).'@gmail.com',
+                    'current_balance'   => 100,
+                    'bank_account_name' => 'Allied bank',
+                    'bank_number'       => 12345677,
+                    'locked_balance'    => 10,
+                    'currency'          => 'usd',
+                    'created_at'        => Carbon::now(),
+                    'updated_at'        => Carbon::now(),
                 ]
             );
         }
