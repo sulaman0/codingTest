@@ -10,6 +10,7 @@ add it to the User B current balance.
 
 - Clone repo.
 - Install composer by composer install
+- Rename .env.example to .env file.
 - Create database & put that database name to .env
 - Run the migration, by php artisan migrate.
 - Run the db seeders to have some initial user in your database & currency rate.

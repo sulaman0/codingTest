@@ -17,7 +17,7 @@ class CurrencyRateSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('users')->insert(
+        DB::table('currency_rate')->insert(
             [
                 'dollar_rate' => 100,
                 'pkr_rate'    => 1,
