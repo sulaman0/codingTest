@@ -13,4 +13,4 @@ add it to the User B current balance.
 - Rename .env.example to .env file.
 - Create database & put that database name to .env
 - Run the migration, by php artisan migrate.
-- Run the db seeders to have some initial user in your database & currency rate.
+- Run the db seeders (php artisan db:seed) to have some initial user in your database & currency rate.
