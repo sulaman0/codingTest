@@ -9,6 +9,7 @@ add it to the User B current balance.
 ## About Installation
 
 - Clone repo.
+- Install composer by composer install
 - Create database & put that database name to .env
 - Run the migration, by php artisan migrate.
 - Run the db seeders to have some initial user in your database & currency rate.
