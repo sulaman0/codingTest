@@ -149,7 +149,6 @@
                     showLoaderOrNot( false );
                 } )
             }
-
             function setCurrencyInputValue() {
                 $( 'input[name=currency]' ).val( $( 'select[name=transfer_from]' ).find( ':selected' ).attr( 'data-currency' ) );
             }
